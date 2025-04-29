@@ -1,0 +1,11 @@
+
+    .quantity-container { display: flex; align-items: center; justify-content: space-between; width: 120px; }
+    .quantity-btn { width: 30px; height: 30px; border: none; background: #000; color: #fff; font-size: 18px; cursor: pointer; }
+    .added-message { display: none; color: green; font-size: 14px; margin-top: 5px; }
+
+    .navbar-brand img {
+    max-height: 110px;     /* Reduces logo height */
+    width: auto;          /* Keeps aspect ratio */
+    margin-left: 0;       /* Aligns left */
+    padding: 0;           /* Removes any padding */
+}

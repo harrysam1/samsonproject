@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(135deg, 
+        #FF0000, /* Red */
+        #FFD700, /* Gold */
+        #FFFF00, /* Yellow */
+        #000000, /* Black */
+        #FF6347, /* Tomato */
+        #32CD32, /* Lime Green */
+        #1E90FF, /* Dodger Blue */
+        #800080, /* Purple */
+        #FF1493, /* Deep Pink */
+        #FFD700, /* Gold again */
+        #7FFF00, /* Chartreuse */
+        #00BFFF, /* Deep Sky Blue */
+        #FF4500, /* Orange Red */
+        #ADFF2F, /* Green Yellow */
+        #D2691E /* Chocolate */
+    );
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.navbar-brand img {
+    max-height: 110px;     /* Reduces logo height */
+    width: auto;          /* Keeps aspect ratio */
+    margin-left: 0;       /* Aligns left */
+    padding: 0;           /* Removes any padding */
+}
+
+
+
+
+
+
+.multicolor-text {
+    background: linear-gradient(90deg, #ff4b1f, #ff9068, #f9d423, #24fe41, #1e90ff, #9b59b6, #ff4b1f);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorFlow 4s linear infinite;
+    font-weight: bold;
+  }
+  
+  @keyframes colorFlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
